@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 	<title> Phiếu lĩnh máu </title>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="description" content="This is website management hospital">
+  	<meta name="author" content="Team real intership in VNPT-IT">
+
+  	<link rel="stylesheet" type="text/css" href="css/style_lplm.css">
+  	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+  	<script src="jquery.js"></script>
+  	<script src="lplm.js"></script>
+  	<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="wrap">
+    	<div id="banner">
+    		<div id = "logo">
+    			<img src="./image/favicon.ico" alt="logo" height="100px" width="100px">
+    		</div>
+    		<div>
+     			<h4 id="title-banner"> LẬP PHIẾU LĨNH MÁU</h4>
+     		</div>
+     		<div id = "trangchu">
+     			<button id="btnTrangchu"><img src="./image/icon-home.png" alt="home" height="25px" width="25px">Trang chủ
+     			</button>
+     			<button id="btnThoat"><img src="./image/icon-exit.png" alt="home" height="25px" width="25px">Thoát</button>
+     		</div>
+       	</div>
+    	<div class="content">
+    		<div id="form-lplm">
+    			<table id="form-table">
+    				<form name="formnhapthongtin">
+    					<p id="tieude">Lập phiếu lĩnh máu</p>
+    					<tr>
+    						<td>Số tiếp nhận</td>
+    						<td class="tt">
+    							<select>
+    								<option>
+    									1
+    								</option>
+    							</select>
+    						</td>
+    					</tr>    					
+    					<tr>
+    						<td>Máu cần đăng ký</td>
+    						<td class="tt">
+    							<select>
+    								<option>
+    									A
+    								</option>
+    								<option>
+    									B
+    								</option>
+    								<option>
+    									O
+    								</option>
+    								<option>
+    									AB
+    								</option>
+    							</select>
+    						</td>
+    					</tr> 
+                        <tr>
+                            <td>Đơn vị tính</td>
+                            <td>
+                                <select>
+                                    <option>Túi (ml)</option>
+                                </select>
+                            </td>
+                        </tr>   						
+    					<tr>
+    						<td>
+    							<input type="button" name="btnThem" value="Thêm" class="left-button">
+    							<input type="button" name="btnSửa" value="Sửa" class="left-button">
+    							<input type="button" name="btnXóa" value="Xóa" class="left-button">
+    						</td>
+    						<td>
+    							<input type="button" name="btnXem" value="Xem" class="right-button">
+    							<input type="button" name="btnIn" value="In" class="right-button">
+    							<input type="reset" name="btnLamLai" value="Làm lại" class="right-button">
+    						</td>
+    					</tr>	
+    				</form>
+    			</table>
+    		</div>
+    		<div id="info">
+    			<table id="form-hienthi" cellspacing="0" border="1">
+    				<form name="formhienthithongtin">
+    					<p id="tieude">Thông tin phiếu lĩnh máu</p>
+    					<tr id="td">
+    						<th>Số tiếp nhận</th>
+    						<th>Mã máu</th>
+    						<th>Tên máu</th>
+    						<th>Đơn vị tính</th>    						
+    					</tr>
+    					<tr>
+                            <td>Số tiếp nhận</td>
+    						<td>Mã máu</td>
+                            <td>Tên máu</td>
+                            <td>Đơn vị tính</td>
+    					</tr>
+    				</form>
+    			</table>
+    		</div>
+      	</div>
+    </div>
+    <div class="footer">
+    	<div class="left-footer">
+      		<p><marquee>Tư vấn hệ thống - Liên hệ: 070xxxxx - Website công ty: vnptit.vn</marquee></p>
+      	</div>
+      	<div class="right-footer">
+      		<p>Copyright &copy; 2019 by VNPT</p>
+      	</div>
+    </div>  
+</body>
+</html>

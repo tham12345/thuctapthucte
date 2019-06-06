@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrap{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #d1d1d1;
+    margin: auto;
+    background-image: url("/image/background.jpg");
+}
+
+#banner{
+    width: 1000px;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 1px
+
+}
+
+#logo{
+    width: 100px;
+    height: 100%;
+    float: left;
+    border: 1px solid green;
+}
+
+#title-banner{
+    width: 740px;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px yellow;
+    color: #42f462;
+    float: left;
+    border: 1px solid green;
+    margin: auto;
+    margin-left: 2px;
+    background-image: url("/image/img-heart.jpg");
+}
+
+#trangchu{
+    width: 150px;
+    height: 100%;
+    float: right;
+    border: 1px solid green;
+}
+
+#btnTrangchu{
+    text-align: center;
+    padding: 5px 5px;
+    margin: 1px 12px;
+    width: 125px;
+    line-height: 25px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #112f60;
+}
+
+#btnThoat{
+    display: block;
+    text-align: center;
+    padding: 7px 7px;
+    margin: 1px 12px;
+    width: 125px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #112f60;
+}
+
+.content{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+#form-qlnkltm{
+    width: 495px;
+    height: 494px;
+    border: 1px solid green;
+    background-color: white;
+    float: left;
+}
+
+#tieude{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+#form-table{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.tt{
+    margin-left: 100px;
+}
+
+.left-button{
+    width: 50px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.right-button{
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#info{
+    width: 500px;
+    height: 100%;
+    border: 1px solid black;
+    background-color: white;
+    float: right;
+    display: inline;
+}
+
+#form-hienthi{
+    width: 480px;
+    height: 450px;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+table th{
+    background-color: #2a63bf;
+    height: 40px;
+    color: white;
+}
+
+.footer{
+    width: 1000px;
+    height:50px;
+    background-color: lightgray;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.left-footer{
+    width: 495px;
+    height: 100%;
+    float: left;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 50px;
+    color: green;
+    text-shadow: 1px 1px 1px yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-footer{
+    width: 500px;
+    height: 100%;
+    float: right;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+}

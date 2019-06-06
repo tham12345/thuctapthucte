@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #d1d1d1;
+}
+.wrap{
+    height: 600px;
+    width: 90%;
+    background-color: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+}
+.title{
+    height: 15%;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: red;
+}
+.title-div1{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-right: 6px;
+    background-color: chartreuse;
+}
+.title-div2{
+    width: 59%;
+    height: 100%;
+    float: left;
+    background-color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #8eb640;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.title-div3{
+    width: 20%;
+    height: 100%;
+    float: right;
+    background-color: purple;
+}
+.button-trangchu{
+    cursor: pointer;
+    background: #007ee5;
+    width: 65px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: 1px;
+    padding-top: 1px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .2);
+}
+
+.content{
+    height: 74%;
+    background-color: aqua;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.content1{
+    width: 30%;
+    background-color: black;
+    float: left;
+    margin-left: 3%;
+    height:100%;
+}
+
+.content2{
+    width: 30%;
+    background-color: pink;
+    margin-left: 2%;
+    float: left;
+    height: 100%;
+}
+.chucnang4{
+    width: 100%;
+    height: 30%;
+    /* margin: 2% auto 3% auto; */
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: red;
+}
+.nd-chucnang4{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    border: 1px solid #d1d1d1;
+    background-color: aqua;
+    margin: auto;
+}
+.chucnang5{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 4%;
+    background-color: black;
+}
+.chucnang6{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 2%;
+    background-color: purple;
+}
+.content3{
+    width: 30%;
+    background-color: blue;
+    float: right;
+    margin-right: 3%;
+    height: 100%;
+}
+.footer{
+    height: 10%;
+    background-color: #ffffff;
+    border-top: 1px solid #d1d1d1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
