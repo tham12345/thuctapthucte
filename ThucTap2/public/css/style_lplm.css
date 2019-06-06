@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-
+body{background:blue;}
 .wrap{
     width: 1000px;
     height: 600px;
